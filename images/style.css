@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Fahkwang', sans-serif;
+  color: blue;
+}
+
+#header {
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Arimo', sans-serif;
+}
+
+img {
+  width: 320px;
+  height: 300px;
+}

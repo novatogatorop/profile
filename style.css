@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-bottom: 70px;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #3c4245;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #3c4245;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+img {
+  border-radius:50%;
+  width: 250px;
+  height: 240px;
+}
+
+ul, li {
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  letter-spacing: 25px;
+  font-size: 30px;
+}
+
+i {
+  padding-top: 30px;
+  color: #3c4245;
+}
+
+i:hover {
+  opacity: 1;
+  color: rgb(205,205,205);
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.light-weight {
+  font-weight: 300;
+}
+
+.center-content {
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #fffdfd;
+  border-radius: 4px;
+  margin: 25px auto;
+  padding: 30px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+
+.btn-clear {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(20,20,20);
+  margin-top: 40px;
+  text-decoration: none;
+  padding: 13px 30px;
+  border:3px solid #406952;
+  border-radius: 40px;
+  opacity: 0.7;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.btn-clear:hover {
+  opacity: 1;
+  color: rgb(205,205,205);
+  cursor: pointer;
+}
+
+#btn-padding {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+/*MEDIA*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
